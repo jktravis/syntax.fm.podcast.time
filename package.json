@@ -1,0 +1,35 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "publish": "now",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Joshua Travis <joshua.travis@gmail.com> (http://jktravis.com)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "next": "^7.0.2",
+    "ramda": "^0.26.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "now": "^12.1.12",
+    "prop-types": "latest"
+  }
+}
